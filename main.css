@@ -1,0 +1,53 @@
+/* * { */
+	/* background: #DCDCDC; */
+/* } */
+
+
+div.wrapper {
+	width: 100%;
+	margin: 50px auto;
+	border: 1px solid silver;
+	background: #808080;
+}
+
+div.wrapper__input {
+	float: left;
+	display: inline-block;
+	/* background: red; */
+	width: calc(100% - 155px);
+	
+}
+
+div.wrapper__btn {
+	float: left;
+	display: inline-block;
+	margin-left: 15px;
+	/* background: blue; */
+}
+
+input {
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: calc(100% - 16px);
+	
+	border: none;
+	outline: none;
+	background-color: silver;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+button {
+	width: 110px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+	border: none;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 50px;
+	padding: 10px;
+}
+
